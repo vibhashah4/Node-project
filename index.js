@@ -19,7 +19,7 @@ const todoSchema = new mongoose.Schema({
   description: String,
 });
 
-// Create a Todo model based on the schema
+// Create a Todo model based on the schemas
 // const Todo = mongoose.model("Todo", todoSchema);
 
 app.use(express.json());
